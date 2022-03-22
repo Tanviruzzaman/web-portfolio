@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    
+    
+}
+h3 {
+    font-size: 20px;
+
+}
+h2 {
+    font-size: 30px;
+}
+
+.orange-highlight {
+
+    color: orange;
+
+}
+.heading {
+    width: 40%;
+    float: left;
+    margin: 3.5%;
+    padding: 1%;
+
+}
+.heading img{
+    width: 100%;
+}
+.top-banner {
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+ section {
+    height: 500px;
+    padding: 40px;
+} 
+.top-paragraph{
+    
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    
+    
+    
+}
+.link-button {
+    
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-image: repeating-linear-gradient(rgb(216, 77, 100),rgb(228, 43, 10));
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.exp-highlight {
+
+    color: red;
+
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#full-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#beginner-level{
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(40, 6, 230), rgb(2, 221, 241));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
